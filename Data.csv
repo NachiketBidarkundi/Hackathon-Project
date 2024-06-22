@@ -1,0 +1,26 @@
+Resturant,Meal,Pounds of Meat
+McDonalds,Hamburger/Cheeseburger,0.1
+McDonalds,Quarter Pounder:,0.25
+McDonalds,Big Mac:,0.2
+McDonalds,Double Cheeseburger:,0.2
+McDonalds,Double Quarter Pounder:,0.5
+Burger King,Whopper,0.25
+Burger King,Whopper Jr,0.14
+Burger King,Double Whopper,0.5
+Burger King,Triple Whopper,0.75
+Burger King,Bacon King,0.5
+Wendy's,Dave's Single,0.25
+Wendy's,Dave's Double,0.5
+Wendy's,Dave's Triple,0.75
+Wendy's,Jr. Bacon Cheeseburger,0.14
+Wendy's,Son of Baconator,0.28
+In and Out,Hamburger/Cheeseburger,0.125
+In and Out,Double-Double,0.25
+In and Out,3x3 (Triple Triple),0.375
+In and Out,4x4 (Quad Quad),0.5
+In and Out,Protein Style (Lettuce Wrap),0.25
+Chick Fil-A,Original Chicken Sandwich,0.25
+Chick Fil-A,Spicy Chicken Sandwich,0.25
+Chick Fil-A,Chick-fil-A Deluxe Sandwich,0.25
+Chick Fil-A,Chick-n-Strips(3 strips),0.28
+Chick Fil-A,Chick-n-Strips(4 strips),0.375
