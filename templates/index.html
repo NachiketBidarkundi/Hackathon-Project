@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Exo:400,700" rel="stylesheet">
     <title>Carbon Emission Calculator</title>
 </head>
-<body style="background-color:#B0E57C;">
-    <h1 style="text-align:center; color:white;">Carbon Emission Calculator</h1>
-    <form action="/calculate" method="POST" style="text-align:center;">
-        <label for="restaurant" style="color:white; font-size:20px;">Select a restaurant:</label>
-        <select name="restaurant" id="restaurant" onchange="updateMeals()" style="font-size:18px;">
+<body style="background-color:#B0E57C; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; flex-direction: column; text-align: center;">
+    <h1 style="color: rgb(233, 96, 96); font-size: 48px; font-weight: bold;">Carbon Emission Calculator</h1>
+    <form action="/calculate" method="POST">
+        <label for="restaurant" style="color: white; font-size: 28px;">Select a restaurant:</label>
+        <select name="restaurant" id="restaurant" onchange="updateMeals()" style="font-size: 24px; margin: 10px;">
             {% for restaurant in restaurants.keys() %}
                 <option value="{{ restaurant }}">{{ restaurant }}</option>
             {% endfor %}
         </select>
         <br><br>
-        <label for="meal" style="color:white; font-size:20px;">Select a meal:</label>
-        <select name="meal" id="meal" style="font-size:18px;">
+        <label for="meal" style="color: white; font-size: 28px;">Select a meal:</label>
+        <select name="meal" id="meal" style="font-size: 24px; margin: 10px;">
             {% for meal in restaurants[restaurants.keys()|first] %}
                 <option value="{{ loop.index0 }}">{{ meal[0] }}</option>
             {% endfor %}
         </select>
         <br><br>
-        <button type="submit" style="background-color:white; color:#B0E57C; font-size:20px;">Calculate Emissions</button>
+        <button type="submit" style="background-color: white; color: #B0E57C; font-size: 28px; padding: 10px 20px;">Calculate Emissions</button>
     </form>
     <script>
         const restaurants = {{ restaurants|tojson }};
@@ -43,3 +44,4 @@
     </script>
 </body>
 </html>
+
