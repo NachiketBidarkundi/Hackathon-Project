@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emission Result</title>
 </head>
-<body style="background-color:#B0E57C;">
-    <h1 style="text-align:center; color:rgb(0, 0, 0);">Carbon Emission Result</h1>
-    <p style="text-align:center; color: black; font-size:20px;">
+<body style="background-color:#B0E57C; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; flex-direction: column; text-align: center;">
+    <h1 style="color: rgb(0, 0, 0); font-size: 48px; font-weight: bold;">Carbon Emission Result</h1>
+    <p style="color: black; font-size: 28px;">
         The carbon emission for the meal "{{ meal }}" at "{{ restaurant }}" is: {{ carbon }} pounds of CO2e emissions.
     </p>
-    <div style="text-align:center;">
-        <a href="/" style="background-color:white; color:#B0E57C; padding:10px 20px; font-size:20px;">Back</a>
+    <div>
+        <a href="/" style="background-color: white; color: #B0E57C; padding: 10px 20px; font-size: 24px; text-decoration: none;">Back</a>
     </div>
 </body>
 </html>
