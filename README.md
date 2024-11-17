@@ -6,5 +6,5 @@ Worked on this project with Anvith Konda.
 
 In-depth Explanation and Walkthrough: https://devpost.com/software/fast-food-to-carbon-emission
 
-2nd Place Winner for Sparkhub 2024 Hackathon
+##2nd Place Winner for Sparkhub 2024 Hackathon
 
